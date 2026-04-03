@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZRTVFezwa9KxkQeizFGID+rBUvVV3kKvWsPHpNIFvEM=",
+  "Source": "BuketOnline.Api",
+  "BasePath": "_content/BuketOnline.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
