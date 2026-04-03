@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BuketOnlineApp\\backend\\BuketOnline.Api\\BuketOnline.Api.csproj": {}
+    "D:\\BuketOnlineApp\\backend\\BuketOnline.api\\BuketOnline.Api.csproj": {}
   },
   "projects": {
-    "D:\\BuketOnlineApp\\backend\\BuketOnline.Api\\BuketOnline.Api.csproj": {
+    "D:\\BuketOnlineApp\\backend\\BuketOnline.api\\BuketOnline.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BuketOnlineApp\\backend\\BuketOnline.Api\\BuketOnline.Api.csproj",
+        "projectUniqueName": "D:\\BuketOnlineApp\\backend\\BuketOnline.api\\BuketOnline.Api.csproj",
         "projectName": "BuketOnline.Api",
-        "projectPath": "D:\\BuketOnlineApp\\backend\\BuketOnline.Api\\BuketOnline.Api.csproj",
+        "projectPath": "D:\\BuketOnlineApp\\backend\\BuketOnline.api\\BuketOnline.Api.csproj",
         "packagesPath": "C:\\Users\\srdjan.matijevic\\.nuget\\packages\\",
-        "outputPath": "D:\\BuketOnlineApp\\backend\\BuketOnline.Api\\obj\\",
+        "outputPath": "D:\\BuketOnlineApp\\backend\\BuketOnline.api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,6 +52,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

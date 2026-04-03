@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XO9JtDOjcs8=",
+  "dgSpecHash": "S7Yt1u/GuaI=",
   "success": true,
-  "projectFilePath": "D:\\BuketOnlineApp\\backend\\BuketOnline.Api\\BuketOnline.Api.csproj",
+  "projectFilePath": "D:\\BuketOnlineApp\\backend\\BuketOnline.api\\BuketOnline.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\srdjan.matijevic\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\srdjan.matijevic\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.7\\microsoft.aspnetcore.openapi.8.0.7.nupkg.sha512",
