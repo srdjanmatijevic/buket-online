@@ -1,0 +1,24 @@
+# Build folderi
+bin/
+obj/
+
+# Visual Studio / Rider / Cursor
+.vs/
+.vscode/
+
+# User fajlovi
+*.user
+*.suo
+
+# Logs
+*.log
+
+# OS fajlovi
+.DS_Store
+Thumbs.db
+
+# Node (kasnije za frontend)
+node_modules/
+
+# Environment
+.env
