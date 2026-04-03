@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BuketOnline.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+837411f9013bf41298ff7ee35a548f8ea7cd9261")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d30e707bc0f35b01d9fd070c07a65ff28f9624db")]
 [assembly: System.Reflection.AssemblyProductAttribute("BuketOnline.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BuketOnline.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
