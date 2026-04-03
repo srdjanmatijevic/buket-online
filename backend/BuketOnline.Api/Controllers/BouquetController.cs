@@ -35,8 +35,10 @@ namespace BuketOnline.Api.Controllers
                     FlowerId = i.FlowerId,
                     FlowerName = i.Flower != null ? i.Flower.Name : "",
                     FlowerPrice = i.Flower != null ? i.Flower.Price : 0,
-                    Quantity = i.Quantity
-                }).ToList()
+                    Quantity = i.Quantity,
+                    ItemTotalPrice = (i.Flower != null ? i.Flower.Price : 0) * i.Quantity
+                }).ToList(),
+                TotalPrice = b.Items.Sum(i => (i.Flower != null ? i.Flower.Price : 0) * i.Quantity)
             }).ToList();
 
             return Ok(response);
@@ -64,8 +66,10 @@ namespace BuketOnline.Api.Controllers
                     FlowerId = i.FlowerId,
                     FlowerName = i.Flower != null ? i.Flower.Name : "",
                     FlowerPrice = i.Flower != null ? i.Flower.Price : 0,
-                    Quantity = i.Quantity
-                }).ToList()
+                    Quantity = i.Quantity,
+                    ItemTotalPrice = (i.Flower != null ? i.Flower.Price : 0) * i.Quantity
+                }).ToList(),
+                TotalPrice = bouquet.Items.Sum(i => (i.Flower != null ? i.Flower.Price : 0) * i.Quantity)
             };
 
             return Ok(response);
@@ -116,8 +120,10 @@ namespace BuketOnline.Api.Controllers
                     FlowerId = i.FlowerId,
                     FlowerName = i.Flower != null ? i.Flower.Name : "",
                     FlowerPrice = i.Flower != null ? i.Flower.Price : 0,
-                    Quantity = i.Quantity
-                }).ToList()
+                    Quantity = i.Quantity,
+                    ItemTotalPrice = (i.Flower != null ? i.Flower.Price : 0) * i.Quantity
+                }).ToList(),
+                TotalPrice = createdBouquet.Items.Sum(i => (i.Flower != null ? i.Flower.Price : 0) * i.Quantity)
             };
 
             return CreatedAtAction(nameof(GetById), new { id = response.Id }, response);

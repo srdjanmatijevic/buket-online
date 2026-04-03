@@ -7,5 +7,6 @@ namespace BuketOnline.Api.DTOs.Bouquets
         public string FlowerName { get; set; } = "";
         public decimal FlowerPrice { get; set; }
         public int Quantity { get; set; }
+        public decimal ItemTotalPrice { get; set; }
     }
 }
